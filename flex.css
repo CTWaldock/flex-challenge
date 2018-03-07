@@ -1,0 +1,52 @@
+body {
+  padding: 2rem;
+  margin: 0.5rem;
+
+}
+
+section.main {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ grid-template-rows: 1fr 1fr;
+ grid-gap: 1rem;
+ font-size: 80%;
+ font-family: Avenir, Roboto, Helvetica, sans-serif;
+
+}
+
+div {
+   display: flex;
+   flex-flow: column;
+   border: 1px solid black;
+   border-radius: 1rem;
+   grid-row-gap: 1rem;
+   grid-column-gap: 1rem;
+   height: auto;
+   padding: 2rem;
+}
+
+button {
+  margin-top: auto;
+  border-radius: 1rem;
+  background-color: rgb(0, 128, 128);
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  color: white;
+  border: none;
+}
+
+img {
+align-self: center;
+}
+
+h1 {
+  font-family: "Avenir";
+  margin: 1rem 1rem 0;
+}
+
+p {
+  margin: 0.25em 1rem 1rem;
+}
+ul {
+  margin: 0 0 1rem
+}
